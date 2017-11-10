@@ -1,8 +1,10 @@
+//кутові точки
 float[] p_00 = new float[] {random(0,1),random(0,1),random(0,1)} ;
 float[] p_01 = new float[] {random(0,1),random(0,1),random(0,1)} ;
 float[] p_10 = new float[] {random(0,1),random(0,1),random(0,1)} ;
 float[] p_11 = new float[] {random(0,1),random(0,1),random(0,1)} ;
 
+//для проектування на площини
 float[][] proec_x = new float[][]{ {0,0,0}, {0,1,0}, {0,0,1} };
 float[][] proec_y = new float[][]{ {1,0,0}, {0,0,0}, {0,0,1} };
 float[][] proec_z = new float[][]{ {1,0,0}, {0,1,0}, {0,0,0} };
